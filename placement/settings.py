@@ -6,7 +6,7 @@ single_circuit = True
 circuit_name = "cm138a"
 
 # Update GUI (True for full speed, False for delayed updates)
-gui = False
+gui = True
 
 # Debug file
 debug_log = open("logs/debug_log.txt", "a+")
@@ -24,7 +24,7 @@ n_iterations = 10000
 mutation_factor = 5
 
 # Control whether algorithm stops at iteration limit or time limit
-time_limited = True
+time_limited = False
 time_limit = 60
 
 grid = {}

@@ -34,6 +34,7 @@ class Genetics:
         # Initialize simulation variables
         self.cells = {}
         self.current_cost = 0
+        self.cost = {}
         
         self.population = []
         self.population_cost = {}

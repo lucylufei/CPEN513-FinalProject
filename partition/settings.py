@@ -19,7 +19,7 @@ population_size = 50
 mutation_factor = 10
 
 # Control whether algorithm stops at iteration limit or time limit
-time_limited = True
+time_limited = False
 time_limit = 60
 
 # GUI settings
